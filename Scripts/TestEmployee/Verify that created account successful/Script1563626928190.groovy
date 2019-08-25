@@ -18,3 +18,6 @@ response = WS.sendRequest(findTestObject('EmployeeObjects/Add Employee'))
 WS.verifyResponseStatusCode(response, 200)
 
 WS.verifyElementPropertyValue(response, 'status_message', 'Employee added successfully!')
+
+println ("Test Message")
+println ("Response: " + response.getResponseBodyContent())

@@ -9,7 +9,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n \&quot;employee_name\&quot; : \&quot;${name}\&quot;,\n \&quot;employee_salary\&quot;: \&quot;1\&quot;,\n \&quot;employee_age\&quot;: \&quot;12\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n \&quot;employee_name\&quot; : \&quot;test\&quot;,\n \&quot;employee_salary\&quot;: \&quot;1\&quot;,\n \&quot;employee_age\&quot;: \&quot;12\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
