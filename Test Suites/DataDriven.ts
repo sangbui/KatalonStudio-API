@@ -28,7 +28,19 @@
          <testDataLinkId>cd2290b0-2c90-479b-9bbe-7882799bab1b</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Name</value>
-         <variableId>c0257545-27bc-4d3f-9f0c-af0d263df94d</variableId>
+         <variableId>e90f88c4-c7ae-49b2-8e23-06478ff02a77</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1fc16943-d755-43b8-ae0f-4bfbd8f3d79a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cd951ef1-ae15-44f2-a074-b2f5443ceb13</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

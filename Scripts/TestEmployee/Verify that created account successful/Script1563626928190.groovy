@@ -12,12 +12,21 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import groovy.json.JsonSlurper as JsonSlurper
 
-response = WS.sendRequest(findTestObject('EmployeeObjects/Add Employee'))
+//response = WS.sendRequest(findTestObject('EmployeeObjects/Add Employee'))
+def jsonSlurper = new JsonSlurper()
+
+// Create a new issue with provided information
+def response = WS.sendRequest(findTestObject('EmployeeObjects/Add Employee', [('Name') : Name, ('Salary') : Salary, ('Age') : Age]))
+
+println(Name)
+
+println(Salary)
+
+println(Age)
 
 WS.verifyResponseStatusCode(response, 200)
 
 WS.verifyElementPropertyValue(response, 'status_message', 'Employee added successfully!')
 
-println ("Test Message")
-println ("Response: " + response.getResponseBodyContent())

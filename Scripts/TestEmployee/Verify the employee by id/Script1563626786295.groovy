@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 response = WS.sendRequest(findTestObject('EmployeeObjects/Gey By ID'))
 
-
 WS.verifyResponseStatusCode(response, 200)
 
-WS.verifyElementPropertyValue(response, '[0].employee_name', 'Cao Thi Thu Thuy')
+not_run: WS.verifyElementPropertyValue(response, '[0].employee_name', 'Cao Thi Thu Thuy')
+

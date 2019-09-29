@@ -8,8 +8,22 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>c0257545-27bc-4d3f-9f0c-af0d263df94d</id>
+      <id>e90f88c4-c7ae-49b2-8e23-06478ff02a77</id>
       <masked>false</masked>
-      <name>name</name>
+      <name>Name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1fc16943-d755-43b8-ae0f-4bfbd8f3d79a</id>
+      <masked>false</masked>
+      <name>Salary</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cd951ef1-ae15-44f2-a074-b2f5443ceb13</id>
+      <masked>false</masked>
+      <name>Age</name>
    </variable>
 </TestCaseEntity>
