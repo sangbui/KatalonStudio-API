@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testData,,,,2019-09-27 14:00:51,2019-09-27 14:00:54,3.393s,PASSED
+,,,,,,,
+Test Cases/TestEmployee/Verify that created account successful,,,,2019-09-27 14:00:51,2019-09-27 14:00:53,2.092s,PASSED
+jsonSlurper = new groovy.json.JsonSlurper(),,,,2019-09-27 14:00:51,2019-09-27 14:00:51,0.007s,PASSED
+"response = sendRequest(findTestObject(""EmployeeObjects/Add Employee"", [""Name"":Name, ""Salary"":Salary, ""Age"":Age]))",,,,2019-09-27 14:00:51,2019-09-27 14:00:53,1.835s,PASSED
+println(Name),,,,2019-09-27 14:00:53,2019-09-27 14:00:53,0.003s,PASSED
+println(Salary),,,,2019-09-27 14:00:53,2019-09-27 14:00:53,0.001s,PASSED
+println(Age),,,,2019-09-27 14:00:53,2019-09-27 14:00:53,0.001s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-09-27 14:00:53,2019-09-27 14:00:53,0.010s,PASSED
+"verifyElementPropertyValue(response, ""status_message"", ""Employee added successfully!"")",,,,2019-09-27 14:00:53,2019-09-27 14:00:53,0.028s,PASSED
+,,,,,,,
+Test Cases/TestEmployee/Verify that created account successful,,,,2019-09-27 14:00:53,2019-09-27 14:00:54,1.067s,PASSED
+jsonSlurper = new groovy.json.JsonSlurper(),,,,2019-09-27 14:00:53,2019-09-27 14:00:53,0.000s,PASSED
+"response = sendRequest(findTestObject(""EmployeeObjects/Add Employee"", [""Name"":Name, ""Salary"":Salary, ""Age"":Age]))",,,,2019-09-27 14:00:53,2019-09-27 14:00:54,1.041s,PASSED
+println(Name),,,,2019-09-27 14:00:54,2019-09-27 14:00:54,0.001s,PASSED
+println(Salary),,,,2019-09-27 14:00:54,2019-09-27 14:00:54,0.001s,PASSED
+println(Age),,,,2019-09-27 14:00:54,2019-09-27 14:00:54,0.000s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-09-27 14:00:54,2019-09-27 14:00:54,0.002s,PASSED
+"verifyElementPropertyValue(response, ""status_message"", ""Employee added successfully!"")",,,,2019-09-27 14:00:54,2019-09-27 14:00:54,0.012s,PASSED

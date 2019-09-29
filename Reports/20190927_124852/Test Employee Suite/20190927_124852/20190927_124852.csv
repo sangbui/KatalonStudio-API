@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Employee Suite,,,,2019-09-27 12:49:05,2019-09-27 12:49:12,7.159s,FAILED
+,,,,,,,
+Test Cases/TestEmployee/Verify the employee has deleted,,,,2019-09-27 12:49:05,2019-09-27 12:49:07,1.789s,PASSED
+"response = sendRequest(findTestObject(""EmployeeObjects/Delete Employee""))",,,,2019-09-27 12:49:05,2019-09-27 12:49:07,1.619s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-09-27 12:49:07,2019-09-27 12:49:07,0.008s,PASSED
+"verifyElementPropertyValue(response, ""status_message"", ""Employee deleted successfully."")",,,,2019-09-27 12:49:07,2019-09-27 12:49:07,0.032s,PASSED
+,,,,,,,
+Test Cases/TestEmployee/Verify the list of employees,,,,2019-09-27 12:49:07,2019-09-27 12:49:09,1.998s,FAILED
+"response = sendRequest(findTestObject(""EmployeeObjects/Get All""))",,,,2019-09-27 12:49:07,2019-09-27 12:49:09,1.873s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-09-27 12:49:09,2019-09-27 12:49:09,0.001s,PASSED
+"verifyElementPropertyValue(response, ""[0].employee_name"", ""Quynh"")",,,,2019-09-27 12:49:09,2019-09-27 12:49:09,0.027s,FAILED
+,,,,,,,
+Test Cases/TestEmployee/Verify the employee has updated,,,,2019-09-27 12:49:09,2019-09-27 12:49:10,1.064s,PASSED
+"response = sendRequest(findTestObject(""EmployeeObjects/Update Employee""))",,,,2019-09-27 12:49:09,2019-09-27 12:49:10,0.986s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-09-27 12:49:10,2019-09-27 12:49:10,0.002s,PASSED
+"verifyElementPropertyValue(response, ""status_message"", ""Employee updated successfully."")",,,,2019-09-27 12:49:10,2019-09-27 12:49:10,0.009s,PASSED
+,,,,,,,
+Test Cases/TestEmployee/Verify the employee by id,,,,2019-09-27 12:49:10,2019-09-27 12:49:11,1.056s,FAILED
+"response = sendRequest(findTestObject(""EmployeeObjects/Gey By ID""))",,,,2019-09-27 12:49:10,2019-09-27 12:49:11,0.975s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-09-27 12:49:11,2019-09-27 12:49:11,0.001s,PASSED
+"verifyElementPropertyValue(response, ""[0].employee_name"", ""Cao Thi Thu Thuy"")",,,,2019-09-27 12:49:11,2019-09-27 12:49:11,0.010s,FAILED
+,,,,,,,
+Test Cases/TestEmployee/Verify that created account successful,,,,2019-09-27 12:49:11,2019-09-27 12:49:12,1.091s,PASSED
+"response = sendRequest(findTestObject(""EmployeeObjects/Add Employee""))",,,,2019-09-27 12:49:11,2019-09-27 12:49:12,0.990s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-09-27 12:49:12,2019-09-27 12:49:12,0.002s,PASSED
+"verifyElementPropertyValue(response, ""status_message"", ""Employee added successfully!"")",,,,2019-09-27 12:49:12,2019-09-27 12:49:12,0.009s,PASSED
+"println(""Test Message"")",,,,2019-09-27 12:49:12,2019-09-27 12:49:12,0.002s,PASSED
+"println(""Response: "" + response.getResponseBodyContent())",,,,2019-09-27 12:49:12,2019-09-27 12:49:12,0.003s,PASSED

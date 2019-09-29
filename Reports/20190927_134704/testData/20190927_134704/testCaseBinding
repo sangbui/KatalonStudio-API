@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/TestEmployee/Verify that created account successful - Iteration 1","testCaseId":"Test Cases/TestEmployee/Verify that created account successful","bindedValues":{"Salary":"\u0027123\u0027","Age":"\u0027123\u0027","Name":"\u0027Sang\u0027"}}
+{"testCaseName":"Test Cases/TestEmployee/Verify that created account successful - Iteration 2","testCaseId":"Test Cases/TestEmployee/Verify that created account successful","bindedValues":{"Salary":"\u0027100\u0027","Age":"\u0027111\u0027","Name":"\u0027Test1\u0027"}}

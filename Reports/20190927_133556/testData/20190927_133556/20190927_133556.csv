@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testData,,,,2019-09-27 13:36:07,2019-09-27 13:36:08,0.406s,ERROR
+,,,,,,,
+Test Cases/TestEmployee/Verify that created account successful,,,,2019-09-27 13:36:07,2019-09-27 13:36:08,0.189s,ERROR
+"verifyResponseStatusCode(response, 200)",,,,2019-09-27 13:36:08,2019-09-27 13:36:08,0.003s,PASSED
+,,,,,,,
+Test Cases/TestEmployee/Verify that created account successful,,,,2019-09-27 13:36:08,2019-09-27 13:36:08,0.009s,ERROR
+"verifyResponseStatusCode(response, 200)",,,,2019-09-27 13:36:08,2019-09-27 13:36:08,0.000s,PASSED

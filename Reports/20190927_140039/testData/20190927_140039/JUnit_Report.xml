@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testData" time="8" tests="2" failures="0" errors="0">
+   <testsuite name="testData" tests="2" failures="0" errors="0" time="8" timestamp="2019-09-27 14:00:51" hostname="sangbui - 192.168.1.4" id="Test Suites/testData">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/sangbui/git/KatalonStudio-API/Reports/20190927_140039/testData/20190927_140039"/>
+         <property name="logFiles" value="/Users/sangbui/git/KatalonStudio-API/Reports/20190927_140039/testData/20190927_140039/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sangbui - 192.168.1.4"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.0.0.1"/>
+      </properties>
+      <testcase name="Test Cases/TestEmployee/Verify that created account successful" classname="Test Cases/TestEmployee/Verify that created account successful" status="PASSED">
+         <system-out><![CDATA[2019-09-27 14:00:51 - [TEST_CASE][PASSED] - Test Cases/TestEmployee/Verify that created account successful: Test Cases/TestEmployee/Verify that created account successful
+
+2019-09-27 14:00:51 - [TEST_STEP][PASSED] - jsonSlurper = new groovy.json.JsonSlurper(): null
+
+2019-09-27 14:00:51 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("EmployeeObjects/Add Employee", ["Name":Name, "Salary":Salary, "Age":Age])): Send request successfully
+
+2019-09-27 14:00:53 - [MESSAGE][INFO] - HAR: /Users/sangbui/git/KatalonStudio-API/Reports/20190927_140039/testData/20190927_140039/requests/main/0.har
+
+2019-09-27 14:00:53 - [MESSAGE][PASSED] - Send request successfully
+
+2019-09-27 14:00:53 - [TEST_STEP][PASSED] - println(Name): null
+
+2019-09-27 14:00:53 - [TEST_STEP][PASSED] - println(Salary): null
+
+2019-09-27 14:00:53 - [TEST_STEP][PASSED] - println(Age): null
+
+2019-09-27 14:00:53 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-09-27 14:00:53 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-09-27 14:00:53 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status_message", "Employee added successfully!"): Verify element property value successfully
+
+2019-09-27 14:00:53 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestEmployee/Verify that created account successful" classname="Test Cases/TestEmployee/Verify that created account successful" status="PASSED">
+         <system-out><![CDATA[2019-09-27 14:00:53 - [TEST_CASE][PASSED] - Test Cases/TestEmployee/Verify that created account successful: Test Cases/TestEmployee/Verify that created account successful
+
+2019-09-27 14:00:53 - [TEST_STEP][PASSED] - jsonSlurper = new groovy.json.JsonSlurper(): null
+
+2019-09-27 14:00:53 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("EmployeeObjects/Add Employee", ["Name":Name, "Salary":Salary, "Age":Age])): Send request successfully
+
+2019-09-27 14:00:54 - [MESSAGE][INFO] - HAR: /Users/sangbui/git/KatalonStudio-API/Reports/20190927_140039/testData/20190927_140039/requests/main/1.har
+
+2019-09-27 14:00:54 - [MESSAGE][PASSED] - Send request successfully
+
+2019-09-27 14:00:54 - [TEST_STEP][PASSED] - println(Name): null
+
+2019-09-27 14:00:54 - [TEST_STEP][PASSED] - println(Salary): null
+
+2019-09-27 14:00:54 - [TEST_STEP][PASSED] - println(Age): null
+
+2019-09-27 14:00:54 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-09-27 14:00:54 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-09-27 14:00:54 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status_message", "Employee added successfully!"): Verify element property value successfully
+
+2019-09-27 14:00:54 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-09-27 14:00:51 - [TEST_SUITE][PASSED] - testData: Test Cases/TestEmployee/Verify that created account successful]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

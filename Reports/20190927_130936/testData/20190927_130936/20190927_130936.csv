@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testData,,,,2019-09-27 13:09:48,2019-09-27 13:09:51,3.191s,PASSED
+,,,,,,,
+Test Cases/TestEmployee/Verify that created account successful,,,,2019-09-27 13:09:48,2019-09-27 13:09:50,1.945s,PASSED
+"response = sendRequest(findTestObject(""EmployeeObjects/Add Employee""))",,,,2019-09-27 13:09:48,2019-09-27 13:09:50,1.700s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-09-27 13:09:50,2019-09-27 13:09:50,0.008s,PASSED
+"verifyElementPropertyValue(response, ""status_message"", ""Employee added successfully!"")",,,,2019-09-27 13:09:50,2019-09-27 13:09:50,0.037s,PASSED
+"println(""Test Message"")",,,,2019-09-27 13:09:50,2019-09-27 13:09:50,0.003s,PASSED
+"println(""Response: "" + response.getResponseBodyContent())",,,,2019-09-27 13:09:50,2019-09-27 13:09:50,0.004s,PASSED
+,,,,,,,
+Test Cases/TestEmployee/Verify that created account successful,,,,2019-09-27 13:09:50,2019-09-27 13:09:51,1.039s,PASSED
+"response = sendRequest(findTestObject(""EmployeeObjects/Add Employee""))",,,,2019-09-27 13:09:50,2019-09-27 13:09:51,1.018s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-09-27 13:09:51,2019-09-27 13:09:51,0.002s,PASSED
+"verifyElementPropertyValue(response, ""status_message"", ""Employee added successfully!"")",,,,2019-09-27 13:09:51,2019-09-27 13:09:51,0.010s,PASSED
+"println(""Test Message"")",,,,2019-09-27 13:09:51,2019-09-27 13:09:51,0.000s,PASSED
+"println(""Response: "" + response.getResponseBodyContent())",,,,2019-09-27 13:09:51,2019-09-27 13:09:51,0.001s,PASSED

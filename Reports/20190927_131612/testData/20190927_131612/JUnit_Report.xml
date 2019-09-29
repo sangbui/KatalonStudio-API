@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testData" time="7" tests="2" failures="0" errors="0">
+   <testsuite name="testData" tests="2" failures="0" errors="0" time="7" timestamp="2019-09-27 13:16:24" hostname="sangbui - 192.168.1.4" id="Test Suites/testData">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/sangbui/git/KatalonStudio-API/Reports/20190927_131612/testData/20190927_131612"/>
+         <property name="logFiles" value="/Users/sangbui/git/KatalonStudio-API/Reports/20190927_131612/testData/20190927_131612/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sangbui - 192.168.1.4"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.0.0.1"/>
+      </properties>
+      <testcase name="Test Cases/TestEmployee/Verify that created account successful" classname="Test Cases/TestEmployee/Verify that created account successful" status="PASSED">
+         <system-out><![CDATA[2019-09-27 13:16:24 - [TEST_CASE][PASSED] - Test Cases/TestEmployee/Verify that created account successful: Test Cases/TestEmployee/Verify that created account successful
+
+2019-09-27 13:16:24 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("EmployeeObjects/Add Employee")): Send request successfully
+
+2019-09-27 13:16:26 - [MESSAGE][INFO] - HAR: /Users/sangbui/git/KatalonStudio-API/Reports/20190927_131612/testData/20190927_131612/requests/main/0.har
+
+2019-09-27 13:16:26 - [MESSAGE][PASSED] - Send request successfully
+
+2019-09-27 13:16:26 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-09-27 13:16:26 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-09-27 13:16:26 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status_message", "Employee added successfully!"): Verify element property value successfully
+
+2019-09-27 13:16:26 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-27 13:16:26 - [TEST_STEP][PASSED] - println("Test Message"): null
+
+2019-09-27 13:16:26 - [TEST_STEP][PASSED] - println("Response: " + response.getResponseBodyContent()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestEmployee/Verify that created account successful" classname="Test Cases/TestEmployee/Verify that created account successful" status="PASSED">
+         <system-out><![CDATA[2019-09-27 13:16:26 - [TEST_CASE][PASSED] - Test Cases/TestEmployee/Verify that created account successful: Test Cases/TestEmployee/Verify that created account successful
+
+2019-09-27 13:16:26 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("EmployeeObjects/Add Employee")): Send request successfully
+
+2019-09-27 13:16:27 - [MESSAGE][INFO] - HAR: /Users/sangbui/git/KatalonStudio-API/Reports/20190927_131612/testData/20190927_131612/requests/main/1.har
+
+2019-09-27 13:16:27 - [MESSAGE][PASSED] - Send request successfully
+
+2019-09-27 13:16:27 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-09-27 13:16:27 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-09-27 13:16:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status_message", "Employee added successfully!"): Verify element property value successfully
+
+2019-09-27 13:16:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-27 13:16:27 - [TEST_STEP][PASSED] - println("Test Message"): null
+
+2019-09-27 13:16:27 - [TEST_STEP][PASSED] - println("Response: " + response.getResponseBodyContent()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-09-27 13:16:24 - [TEST_SUITE][PASSED] - testData: Test Cases/TestEmployee/Verify that created account successful]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

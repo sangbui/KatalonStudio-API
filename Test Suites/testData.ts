@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>testData</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>93d9f523-013b-4851-b034-507ff52417a5</testSuiteGuid>
+   <testCaseLink>
+      <guid>3de2196c-bcd0-4691-bbb8-08bd99835bfd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestEmployee/Verify that created account successful</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>eb352922-3517-46a7-94dd-3025e975f9ff</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/EmployeeData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>eb352922-3517-46a7-94dd-3025e975f9ff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Name</value>
+         <variableId>e90f88c4-c7ae-49b2-8e23-06478ff02a77</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>eb352922-3517-46a7-94dd-3025e975f9ff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Salary</value>
+         <variableId>1fc16943-d755-43b8-ae0f-4bfbd8f3d79a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>eb352922-3517-46a7-94dd-3025e975f9ff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Age</value>
+         <variableId>cd951ef1-ae15-44f2-a074-b2f5443ceb13</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
