@@ -17,5 +17,5 @@ response = WS.sendRequest(findTestObject('EmployeeObjects/Get All'))
 
 WS.verifyResponseStatusCode(response, 200)
 
-not_run: WS.verifyElementPropertyValue(response, '[0].employee_name', 'Quynh')
+not_run: WS.verifyElementPropertyValue(response, '[1].employee_name', 'Riley')
 

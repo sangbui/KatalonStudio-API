@@ -17,5 +17,3 @@ response = WS.sendRequest(findTestObject('EmployeeObjects/Gey By ID'))
 
 WS.verifyResponseStatusCode(response, 200)
 
-not_run: WS.verifyElementPropertyValue(response, '[0].employee_name', 'Cao Thi Thu Thuy')
-
